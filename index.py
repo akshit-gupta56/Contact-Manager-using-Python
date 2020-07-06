@@ -132,8 +132,8 @@ def OnSelected(event):
     ContactForm = Frame(UpdateWindow)
     ContactForm.pack(side = TOP, pady = 10)
     RadioGroup = Frame(ContactForm)
-    Male = Radiobutton(RadioGroup, Text = "Male", variable = GENDER, value = "Male", font = ('arial', 14)).pack(side = LEFT)
-    Female = Radiobutton(RadioGroup, Text = "Female", variable = GENDER, value = "Female", font = ('arial', 14)).pack(side = LEFT)
+    Male = Radiobutton(RadioGroup, text = "Male", variable = GENDER, value = "Male", font = ('arial', 14)).pack(side = LEFT)
+    Female = Radiobutton(RadioGroup, text = "Female", variable = GENDER, value = "Female", font = ('arial', 14)).pack(side = LEFT)
 
 
     #----------LABELS----------#
@@ -216,8 +216,8 @@ def AddNewWindow():
     ContactForm = Frame(NewWindow)
     ContactForm.pack(side = TOP, pady = 10)
     RadioGroup = Frame(ContactForm)
-    Male = Radiobutton(RadioGroup, Text = "Male", variable = GENDER, value = 'Male', font = ('arial', 14)).pack(side = LEFT)
-    Female = Radiobutton(RadioGroup, Text = "Female", variable = GENDER, value = 'Female', font = ('arial', 14)).pack(side = LEFT)
+    Male = Radiobutton(RadioGroup, text = "Male", variable = GENDER, value = 'Male', font = ('arial', 14)).pack(side = LEFT)
+    Female = Radiobutton(RadioGroup, text = "Female", variable = GENDER, value = 'Female', font = ('arial', 14)).pack(side = LEFT)
 
 
     #----------LABELS----------#
